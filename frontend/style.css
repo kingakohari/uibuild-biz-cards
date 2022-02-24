@@ -1,0 +1,86 @@
+* {
+margin: 0;
+padding: 0;
+border: 0;
+outline: none;
+box-sizing: border-box;
+background: transparent;
+font-family: inherit;
+}
+a {
+text-decoration: none;
+}
+a img {
+border: none;
+}
+
+button,
+a {
+cursor: pointer;
+color: inherit;
+}
+
+textarea {
+resize: none;
+}
+
+button,
+textarea,
+select {
+appearance: none !important;
+border-radius: 0;
+}
+
+/*End of CSS reset*/
+
+body {    
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #ffeedf;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    grid-gap: 62px;
+    max-width: 56%;
+    margin-top: 62px;
+    margin-bottom: 62px;
+    margin-left: 22%;
+    place-items: center;
+    
+}
+
+.card {
+    width: 290px;
+    height: 416px;
+    padding: 27px 27px;
+    justify-content: center;
+    align-items: center;
+    background-color:#fff
+
+}
+
+.card h2 {
+    padding-bottom: 10px;
+    color: #33793f;
+    font-size: 48px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 100;
+}
+
+.card h6 {
+    padding-bottom: 25px;
+    color: #999;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em
+}
+
+.card p {
+    color: #999;
+    font-size: 24px;
+    font-family: 'EB Garamond', serif;
+}
